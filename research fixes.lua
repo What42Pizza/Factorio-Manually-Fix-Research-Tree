@@ -14,7 +14,15 @@
 	be filled out or it will be assumed to be an empty list and it give a
 	warning.
 	
+	The printData variable allows you to print the names of all techs and
+	science packs. The results are only in the log.txt file. For windows, you can type '%appdata%\Factorio' in the search
+	bar. I'm not sure about max/linux, but the path is defined by the
+	'config-path.cfg' when you go to Steam > Factorio > Properties > Installed
+	Files > Browse
+	
 --]]
+
+printData = true
 
 fixes = {
 	{

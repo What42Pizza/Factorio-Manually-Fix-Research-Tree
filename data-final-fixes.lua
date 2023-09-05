@@ -4,17 +4,21 @@ require("utils")
 
 require("research fixes")
 
+
+
 if printData then
-	log("======== ALL TECHNOLOGIES ========")
-	for _,tech in ipairs(data.raw.technology) do
+	log("======== ALL TECHNOLOGY NAMES ========")
+	for _,tech in pairs(data.raw.technology) do
 		log(tech.name)
 	end
-	log("======== ALL SCIENCES (and tools) ========")
-	for _,tool in ipairs(data.raw.tool) do
+	log("======== ALL SCIENCE (and tool) NAMES ========")
+	for _,tool in pairs(data.raw.tool) do
 		log(tool.name)
 	end
-	log("======== END DATA ========")
+	log("======== END OF DATA ========")
 end
+
+
 
 for _,fix in ipairs(fixes) do
 	if fix.name == "example-technology" then goto continue end
