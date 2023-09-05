@@ -5,5 +5,5 @@
 	"author": "What42Pizza",
 	"factorio_version": "1.1",
 	"dependencies": ["base >= 1.1"],
-	"description": "This mod allows you to fix a broken research tree with very little coding. Just download this mod then unzip this and look at 'research fixes.lua'. It only allows you to change the prerequisites and needed science packs, but that's probably enough.\n\nI don't actually have a use for this, but someone else probably will."
+	"description": "This mod allows you to easily fix a broken research tree with very little coding. Just download this mod then unzip this and look at 'research fixes.lua'. It only allows you to change the prerequisites and needed science packs, but that's probably enough.\n\nI don't actually have a use for this, but someone else probably will."
 }
