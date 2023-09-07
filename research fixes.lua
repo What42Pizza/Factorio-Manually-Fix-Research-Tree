@@ -22,7 +22,7 @@
 	
 --]]
 
-printData = true
+printData = false
 
 fixes = {
 	{
